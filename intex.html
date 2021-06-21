@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">    
+        <script src="js/scripts.js"></script>
+        <link rel="icon" href="icon/favicon/android-chrome-512x512.png" type="image/jpg" sizes="16x16">
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DARK&MOODY</title>
+    </head>
+    <body>
+        <style>
+            a.icon {
+                position: absolute;
+                right: 25px;
+                bottom: 5px;
+                font-size: 50px;
+                display: none;
+            }
+            .mobile-container {
+              max-width: 480px;
+              margin: auto;
+              background-color: #555;
+              height: 500px;
+              color: white;
+              border-radius: 10px;
+            }
+
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+                position: absolute;
+                right: 0;
+                height: 80vh;
+            text-align: center;
+            }
+
+            .topnav #myLinks {
+              display: none;
+            }
+
+            .topnav a {
+              color: white;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-size: 80px;
+              display: block;
+            }
+
+            .topnav a.icon {
+              background: black;
+              display: block;
+              position: absolute;
+              right: 0;
+              top: 0;
+            }
+
+            .topnav a:hover {
+              background-color: #ddd;
+              color: black;
+            }
+
+            .active {
+              background-color: #04AA6D;
+              color: white;
+            }
+            @media all and (max-width: 480px){
+                a.icon{
+                    display: inline-block;
+                }
+            }
+        </style>
+
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+
+
+
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+         <header id="header">
+               <div class="left">
+                    <a href=""><img src="images/logo.png"></a><br>
+                    <h3>DARK&MOODY</h3>
+               </div>
+               <div class="right">
+                   <ul>
+                       <li class="one"><a class="">Home</a></li>
+                       <li class="one"><a class="">Our</a></li>
+                       <li class="one"><a class="call" href="callto:+919188626148">Call</a></li>
+                   </ul>
+                   <ul>
+                       <li><a class=""><span class="icon"></span></a></li>
+                       <li><a class=""><span class="icon"></span></a></li>
+                       <li><a class=""><span class="icon"></span></a></li>
+                   </ul>
+                   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                         <i class="fa fa-bars"></i>
+                    </a>
+                    <div class="topnav">
+                        <div id="myLinks">
+                            <a href="#news">News</a>
+                            <a href="#contact">Contact</a>
+                            <a href="#about">About</a>
+                        </div>
+                    </div>
+               </div>
+            </header>
+       <section id="main">
+           <section class="">
+                <h3>FRIENDLY</h3>
+                <h1>DARK & MOODY</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ve <br>
+                quis nostrud exercitation</p>
+                <a class="button">View More</a>
+           </section>
+       </section>
+
+       <section id="collection">
+           <section class="head">
+               <h1>Creat Your Master Piece</h1>
+               <h4>CREATIVE COLLECTION</h4>
+           </section>
+           <section class="immm">
+                <section class="com">
+                    <div class="im">
+                        <img src="images/01.jpg">
+                    </div>
+                   <div class="con">
+                       <h1>Event</h1>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br> Corrupt labor pains small, there is a resultant of age.</p>
+                       <a class="button">More</a>
+                   </div>
+                </section>
+                <section class="com">
+                    <div class="im">
+                        <img src="images/02.jpg">
+                    </div>
+                   <div class="con">
+                       <h1>Coverage</h1>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br> Corrupt labor pains small, there is a resultant of age.</p>
+                       <a class="button">More</a>
+                   </div>
+                </section>
+           </section>
+       </section>
+
+       <section id="class">
+           <section class="left">
+               <img src="images/03.jpg">
+           </section>
+           <section class="right">
+               <div class="conn">
+                   <h1>Free Masterclass</h1>
+                   <h3>Creative Photography</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                   cillum dolore eu fugiat nulla pariatur.</p>
+                   <a class="button">View More</a>
+               </div>
+           </section>
+       </section>
+
+       <section id="work">
+           <section class="head">
+               <h1>OUR WORKS</h1>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+           </section>
+            <section class="gallery">
+                  <div class="gallery__item">
+                    <input type="radio" id="img-1" checked name="gallery" class="gallery__selector"/>
+                    <img class="gallery__img" src="images/11.jpg" alt=""/>
+                    <label for="img-1" class="gallery__thumb"><img src="images/11.jpg" alt=""/></label>
+                  </div>
+                  <div class="gallery__item">
+                    <input type="radio" id="img-2" checked name="gallery" class="gallery__selector"/>
+                    <img class="gallery__img" src="images/12.jpg" alt=""/>
+                    <label for="img-2" class="gallery__thumb"><img src="images/12.jpg" alt=""/></label>
+                  </div>
+                  <div class="gallery__item">
+                    <input type="radio" id="img-3" checked name="gallery" class="gallery__selector"/>
+                    <img class="gallery__img" src="images/13.jpg" alt=""/>
+                    <label for="img-3" class="gallery__thumb"><img src="images/13.jpg" alt=""/></label>
+                  </div>
+                   <div class="gallery__item">
+                    <input type="radio" id="img-4" checked name="gallery" class="gallery__selector"/>
+                    <img class="gallery__img" src="images/14.jpg" alt=""/>
+                    <label for="img-4" class="gallery__thumb"><img src="images/14.jpg" alt=""/></label>
+                  </div>
+                   <div class="gallery__item">
+                    <input type="radio" id="img-5" checked name="gallery" class="gallery__selector"/>
+                    <img class="gallery__img" src="images/15.jpg" alt=""/>
+                    <label for="img-5" class="gallery__thumb"><img src="images/15.jpg" alt=""/></label>
+                  </div>
+                   <div class="gallery__item">
+                    <input type="radio" id="img-6" checked name="gallery" class="gallery__selector"/>
+                    <img class="gallery__img" src="images/16.jpg" alt=""/>
+                    <label for="img-6" class="gallery__thumb"><img src="images/16.jpg" alt=""/></label>
+                  </div>
+                  <div class="gallery__item">
+                    <input type="radio" id="img-7" checked name="gallery" class="gallery__selector"/>
+                    <img class="gallery__img" src="images/17.jpg" alt=""/>
+                    <label for="img-7" class="gallery__thumb"><img src="images/17.jpg" alt=""/></label>
+                  </div>
+                  <div class="gallery__item">
+                    <input type="radio" id="img-8" checked name="gallery" class="gallery__selector"/>
+                    <img class="gallery__img" src="images/18.jpg" alt=""/>
+                    <label for="img-8" class="gallery__thumb"><img src="images/18.jpg" alt=""/></label>
+                  </div>
+                  <div class="gallery__item">
+                    <input type="radio" id="img-9" checked name="gallery" class="gallery__selector"/>
+                    <img class="gallery__img" src="images/19.jpg" alt=""/>
+                    <label for="img-9" class="gallery__thumb"><img src="images/19.jpg" alt=""/></label>
+                  </div>
+                  <div class="gallery__item">
+                    <input type="radio" id="img-10" checked name="gallery" class="gallery__selector"/>
+                    <img class="gallery__img" src="images/20.jpg" alt=""/>
+                    <label for="img-10" class="gallery__thumb"><img src="images/20.jpg" alt=""/></label>
+                  </div>
+
+            </section>
+       </section>
+        <section id="follow">
+            <div class="h2">
+                <h2>Follow Us</h2>
+            </div>
+            <section class="button">
+               <div class="social-icons">
+                    <a href="https://www.instagram.com/siraj_edk/" class="social-icon social-icon--instagram" target="_blank">
+                      <i class="fa fa-instagram"></i> 
+                      <div class="tooltip">INSTAGRAM</div>
+                    </a>
+                    <a href="https://www.facebook.com/sirajudheena.alakkal" class="social-icon social-icon--facebook" target="_blank">
+                        <i class="fa fa-facebook"></i> 
+                        <div class="tooltip">FACEBOOK</div>
+                    </a>
+                    <a href='https://wa.me/+919188626148' target='_blank' class="social-icon social-icon--whatsapp" target="_blank">
+                        <i class="fa fa-whatsapp"></i> 
+                        <div class="tooltip">WHATSAPP</div>
+                    </a>
+                    <a href="" class="social-icon social-icon--youtube" target="_blank">
+                        <i class="fa fa-youtube"></i> 
+                        <div class="tooltip">YOUTUBE</div>
+                    </a>
+                 </div>
+            </section>
+        </section>
+
+        <section class="map2 cid-rEv6g8JeUj" id="map03-5m" >
+            <div class="container">
+                <div class="row" style="display: flex;">
+                    <div class="col-md-6 map1" style="width: 50%;">
+                        <div class="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.929426846011!2d76.34365881523911!3d11.04391809214036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba62cb984648ce3%3A0x11ed5657dfad132f!2sKodiyamkunnu%20Bus%20Stop!5e0!3m2!1sen!2sin!4v1623846696496!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                    </div>
+                    <div class="col-md-6 map2">
+                        <div class="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.9432645655506!2d76.34537151523915!3d11.042880692141027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba62cba15b95061%3A0xba0c163f9a79c5b1!2sKodiyamkunnu%20Juma%20Masjid!5e0!3m2!1sen!2sin!4v1623846742249!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <section class="button">
+                <a href="https://www.instagram.com/siraj_edk/" target="_blank">
+                    <div class="butt" id="b1">
+                        <span class="icon">
+                            <i class="fa fa-instagram"></i> 
+                        </span>
+                        <span>INSTAGRAM</span>
+                    </div>
+                </a>
+                <a href="//www.facebook.com/sirajudheena.alakkal" target="_blank">
+                    <div class="butt" id="b2">
+                        <span class="icon">
+                            <i class="fa fa-facebook"></i> 
+                        </span>
+                        <span>FACEBOOK</span>
+                    </div>
+                </a>
+                <a href='https://wa.me/+919188626148' target='_blank' >
+                    <div class="butt" id="b3">
+                        <span class="icon">
+                            <i class="fa fa-whatsapp"></i> 
+                        </span>
+                        <span>WHATSAPP</span>
+                    </div>
+                </a>
+                <a href="" target="_blank">
+                    <div class="butt" id="b4">
+                        <span class="icon">
+                            <i class="fa fa-youtube"></i> 
+                        </span>
+                        <span>YOUTUBE</span>
+                    </div>
+                </a>
+            </section>
+            <h2>© Copyright 2019 Mobirise - All Rights Reserved</h2>
+        </footer>
+
+        <script>
+             //Get the button
+            var header = document.getElementById("header");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scroll()};
+
+            function scroll() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                header.style.background = "black";
+              } else {
+                header.style.background = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+    </body>
+</html>
